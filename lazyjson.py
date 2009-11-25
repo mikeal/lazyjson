@@ -1,7 +1,7 @@
 from StringIO import StringIO
 
 try:
-    import httplib2 as json
+    import jsonlib2 as json
 except:
     try:
         import simplejson as json
